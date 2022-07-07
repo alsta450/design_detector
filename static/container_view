@@ -1,0 +1,14 @@
+digraph "./static/container_view" {
+	graph [fontcolor="#2D3436" fontname="Sans-Serif" fontsize=15 label="./static/container_view" nodesep=0.60 pad=2.0 rankdir=TB ranksep=0.75 splines=ortho]
+	node [fixedsize=true fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13 height=1.4 imagescale=true labelloc=b shape=box style=rounded width=1.4]
+	edge [color="#7B8894"]
+	d1d0f0df533e488592b43793dd3e052d [label=discovery height=1.9 id=discovery image="C:\ProgramData\Anaconda3\lib\site-packages\resources/aws/compute\ec2.png" shape=none]
+	d8285a2052694e02b7133fb27f0487fc [label=config height=1.9 id=config image="C:\ProgramData\Anaconda3\lib\site-packages\resources/aws/compute\ec2.png" shape=none]
+	d7efe2341ec542f1b3ae9d0011f95730 [label="school-service" height=1.9 id="school-service" image="C:\ProgramData\Anaconda3\lib\site-packages\resources/aws/compute\ec2.png" shape=none]
+	a00bdc84bd234171973878b94287c522 [label="school-ui" height=1.9 id="school-ui" image="C:\ProgramData\Anaconda3\lib\site-packages\resources/aws/compute\ec2.png" shape=none]
+	d8285a2052694e02b7133fb27f0487fc -> d1d0f0df533e488592b43793dd3e052d [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	d7efe2341ec542f1b3ae9d0011f95730 -> d8285a2052694e02b7133fb27f0487fc [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	d7efe2341ec542f1b3ae9d0011f95730 -> d1d0f0df533e488592b43793dd3e052d [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	a00bdc84bd234171973878b94287c522 -> d8285a2052694e02b7133fb27f0487fc [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	a00bdc84bd234171973878b94287c522 -> d1d0f0df533e488592b43793dd3e052d [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+}
